@@ -1,0 +1,36 @@
+---
+layout: default
+show_sidebar: false
+---
+<div class="columns is-multiline">
+    <div class="column is-12">
+        {{ page.content }}
+    </div>
+
+    {% if page.collection %}
+        {% assign sorted_umcss = site.[page.collection] | sort: page.sort %}
+    {% else %}
+        {% assign sorted_umcss = site.umcss | sort: page.sort %}
+    {% endif %}
+
+    {% for umcs in sorted_umcss %}
+        <div class="column is-4-desktop is-6-tablet">
+            <a href="{{ umcs.url | relative_url }}">
+                <div class="card">
+                    {% if umcs.image %}
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="{{ umcs.image }}" alt="{{ umcs.title }}">
+                            </figure>
+                        </div>
+                    {% endif %}
+                    <div class="card-content">
+                        <p class="title is-4">{{ umcs.title }}</p>
+                        <p class="subtitle is-4">{{ umcs.subtitle }}</p>
+                        <p class="title is-5 has-text-right">{{ umcs.price }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+</div>
