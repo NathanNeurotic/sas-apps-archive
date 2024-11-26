@@ -14,14 +14,14 @@ show_sidebar: false
         {% assign sorted_umcslistings = site.umcslistings | sort: page.sort %}
     {% endif %}
 
-    {% for applist in sorted_umcslistings %}
+    {% for umcslist in sorted_umcslistings %}
         <div class="column is-4-desktop is-6-tablet">
-            <a href="{{ applist.url | relative_url }}">
+            <a href="{{ umcslist.url | relative_url }}">
                 <div style="border: 3px outset wheat" class="card">
                     {% if umcslist.image %}
                         <div class="card-image">
                             <figure class="image is-4by3">
-                                <img src="{{ applist.image }}" alt="{{ applist.title }}">
+                                <img src="{{ umcslist.image }}" alt="{{ umcslist.title }}">
                             </figure>
                         </div>
                     {% endif %}

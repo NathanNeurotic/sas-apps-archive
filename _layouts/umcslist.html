@@ -13,8 +13,8 @@ layout: default
         <p class="subtitle is-3">{{ page.subtitle }}</p></br>
         <p class="title is-5 has-text-right">by {{ page.developer }}</p></br>
         <p class="title is-5 has-text-left">Version: {{ page.version }}</p>
-       <!-- {% if page.app_code %}
-            <p class="subtitle is-5 has-text-right">{{ page.app_code }}</p>
+       <!-- {% if page.umcs_code %}
+            <p class="subtitle is-5 has-text-right">{{ page.umcs_code }}</p>
         {% endif %} 
         {% if page.rating %}
             {% include rating.html rating=page.rating %}
@@ -38,7 +38,7 @@ layout: default
         
 <div style="width: 100%; overflow: auto; flow: left; margin-left: 10px; margin-right: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
     <p class="title is-5 has-text-left">Download {{ page.title }}:</p></br>
-<div style="flow: left" class="applist-multi_button_flex"><div style="align-self: center; margin-right: 10px">
+<div style="flow: left" class="umcslist-multi_button_flex"><div style="align-self: center; margin-right: 10px">
 {% if page.download %}
 <script>
     function download_link() {
@@ -68,7 +68,7 @@ layout: default
         {% endif %}
     </br></div>
                 
-<div style="width: 100%; padding: 10px"><div style="border-radius: 10px; padding: 10px; border: 2px outset wheat" class="app_desc">
+<div style="width: 100%; padding: 10px"><div style="border-radius: 10px; padding: 10px; border: 2px outset wheat" class="umcs_desc">
     <div style="font-weight: bold" class="column is-12">
     </br>
         <p class="title is-4">Description</p>
@@ -78,10 +78,10 @@ layout: default
         </div>
     </div>
 </div></div>
-    {% if site.data.reviews[page.app_code] %}
+    {% if site.data.reviews[page.umcs_code] %}
         <div class="column is-12">
             <p class="title is-4">Reviews</p>
-            {% for review in site.data.reviews[page.app_code] %}
+            {% for review in site.data.reviews[page.umcs_code] %}
                 {% include review.html %}
             {% endfor %}
         </div>
