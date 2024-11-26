@@ -2,7 +2,7 @@
   link: /#
   dropdown:
     - name: UMCS
-      link: /Coming-Soon
+      link: /umcs.html
     - name: RTEs
       link: /Coming-Soon
     - name: Apps
@@ -10,5 +10,5 @@
     - name: System-Apps
       link: /Coming-Soon
     - name: Other
-      link: //Coming-Soon
+      link: /Coming-Soon
     
