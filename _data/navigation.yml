@@ -4,11 +4,13 @@
     - name: UMCS
       link: /umcs.html
     - name: RTEs
-      link: /Coming-Soon
+      link: /rtes.html
     - name: Apps
       link: /index.html
     - name: System-Apps
-      link: /Coming-Soon
+      link: /sysapps.html
+    - name: Games
+      link: /games.html 
     - name: Other
-      link: /Coming-Soon
+      link: /other.html
     
