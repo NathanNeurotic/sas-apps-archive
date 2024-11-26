@@ -5,7 +5,7 @@ description: More about FMCB Configurator
 developer:  Members of ps2homebrew
 hide_hero: true
 app_code: UML003-005
-layout: umcs/umcslist
+layout: umcslist
 image: https://sksapps.haldrie.com/bootleg/tutorials/fmcb/FMCBv1.8/launch_k.jpg
 version: v1.9
 features:
