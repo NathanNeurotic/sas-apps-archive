@@ -87,6 +87,30 @@ collections:
 
     umcslistings: 
         output: true
-        layout: applist
+        layout: umcslist
+        image: https://preview.redd.it/vsprmxbhzaj81.png?auto=webp&s=f44361fa1cc8085a51394eeddcb72c52e4f98a05
+        show_sidebar: false
+
+    rtelistings: 
+        output: true
+        layout: rtelist
+        image: https://preview.redd.it/vsprmxbhzaj81.png?auto=webp&s=f44361fa1cc8085a51394eeddcb72c52e4f98a05
+        show_sidebar: false
+
+    sysapplistings: 
+        output: true
+        layout: sysapplist
+        image: https://preview.redd.it/vsprmxbhzaj81.png?auto=webp&s=f44361fa1cc8085a51394eeddcb72c52e4f98a05
+        show_sidebar: false
+
+    gamelistings: 
+        output: true
+        layout: gamelist
+        image: https://preview.redd.it/vsprmxbhzaj81.png?auto=webp&s=f44361fa1cc8085a51394eeddcb72c52e4f98a05
+        show_sidebar: false
+
+    otherlistings: 
+        output: true
+        layout: otherlist
         image: https://preview.redd.it/vsprmxbhzaj81.png?auto=webp&s=f44361fa1cc8085a51394eeddcb72c52e4f98a05
         show_sidebar: false
