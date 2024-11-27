@@ -5,8 +5,8 @@ description: This page is work in Progress! Check back later for more stuff!
 developer:  korax
 visit_project: https://ps2wiki.github.io/documentation/homebrew/PS2-App-System/SAS/index.html
 hide_hero: true
-umcs_code: APL001-001
-layout: umcslist
+sysapps_code: SAL001-001
+layout: sysappslist
 image: https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L3JtNTU4LWVsZW1lbnRzLXdvcmQtMDEteC5qcGc.jpg
 version: WIP
 features:
