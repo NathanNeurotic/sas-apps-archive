@@ -1,0 +1,89 @@
+---
+layout: default
+---
+<div class="columns is-multiline">
+    <div class="column is-6">
+        <figure class="image is-4by3">
+            <img style="border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px" src="{{ page.image }}">
+        </figure>
+    </div>
+
+    <div class="column is-6">
+        <p class="title is-3">{{ page.title }}</p>
+        <p class="subtitle is-3">{{ page.subtitle }}</p></br>
+        <p class="title is-5 has-text-right">by {{ page.developer }}</p></br>
+        <p class="title is-5 has-text-left">Version: {{ page.version }}</p>
+       <!-- {% if page.other_code %}
+            <p class="subtitle is-5 has-text-right">{{ page.other_code }}</p>
+        {% endif %} 
+        {% if page.rating %}
+            {% include rating.html rating=page.rating %}
+        {% endif %} -->
+    </br>
+        {% if page.features %}
+            <div class="content">
+                {% for feature in page.features %}
+                    <p>
+                        <span class="icon">
+                            {% if feature.icon %}
+                                <i class="fas {{ feature.icon }}"></i>
+                            {% else %}
+                                <i class="fas fa-circle fa-xs"></i>
+                            {% endif %}
+                        </span>
+                        <span>{{ feature.label }}</span>
+                    </p>
+                {% endfor %}
+                </br></div></div>
+        
+<div style="width: 100%; overflow: auto; flow: left; margin-left: 10px; margin-right: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
+    <p class="title is-5 has-text-left">Download {{ page.title }}:</p></br>
+<div style="flow: left" class="otherlist-multi_button_flex"><div style="align-self: center; margin-right: 10px">
+{% if page.download %}
+<script>
+    function download_link() {
+      var bits = [""];
+      bits.push("{{ page.download }}");
+      var url = bits.join("");
+      document.getElementById("dllink").setAttribute("href",url);
+    }
+    download_link();
+</script>
+<a id="dllink" href="" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
+                {% endif %}</div></br>
+<div style="align-self: center">
+{% if page.visit_project %}
+<script>
+    function project_link() {
+      var bits = [""];
+      bits.push("{{ page.visit_project }}");
+      var url = bits.join("");
+      document.getElementById("vplink").setAttribute("href",url);
+    }
+    project_link();
+</script>
+<a id="vplink" href="" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
+                 {% endif %}</div></div>
+            
+        {% endif %}
+    </br></div>
+                
+<div style="width: 100%; padding: 10px"><div style="border-radius: 10px; padding: 10px; border: 2px outset wheat" class="other_desc">
+    <div style="font-weight: bold" class="column is-12">
+    </br>
+        <p class="title is-4">Description</p>
+    </br>
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+</div></div>
+    {% if site.data.reviews[page.other_code] %}
+        <div class="column is-12">
+            <p class="title is-4">Reviews</p>
+            {% for review in site.data.reviews[page.other_code] %}
+                {% include review.html %}
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>

@@ -1,0 +1,50 @@
+---
+layout: default
+show_sidebar: false
+---
+
+<div class="columns is-multiline">
+    <div class="column is-12">
+        {{ page.content }}
+    </div>
+
+    {% if page.collection %}
+        {% assign sorted_rteslistings = site.[page.collection] | sort: page.sort %}
+    {% else %}
+        {% assign sorted_rteslistings = site.rteslistings | sort: page.sort %}
+    {% endif %}
+
+    {% for rteslist in sorted_rteslistings %}
+        <div class="column is-4-desktop is-6-tablet">
+            <a href="{{ rteslist.url | relative_url }}">
+                <div style="border: 3px outset wheat" class="card">
+                    {% if rteslist.image %}
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="{{ rteslist.image }}" alt="{{ rteslist.title }}">
+                            </figure>
+                        </div>
+                    {% endif %}
+                    <div class="card-content">
+                        <p class="title is-4">{{ rteslist.title }}</p>
+                        <p class="subtitle is-4">{{ rteslist.subtitle }}</p></br>
+                       <!--
+                        <div style="float: left"><p>{% if rteslist.download %}
+                            <script>
+                            function download_link() {
+                                var bits = ["https://"];
+                                bits.push("{{ rteslist.download }}");
+                                var url = bits.join("");
+                                document.getElementById("dllink").setAttribute("href",url);
+                                }
+                                download_link();
+                            </script>
+                            <a id="dllink" href="#" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
+                            {% endif %}</p></div> -->
+                        <div style="float: right"><p class="title is-5 has-text-right">{{ rteslist.version }}</p></div></br></br>
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+</div>
