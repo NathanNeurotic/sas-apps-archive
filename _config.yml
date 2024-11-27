@@ -53,7 +53,7 @@ sass:
   # load_paths: 
     # - node_modules
 
-#google_analytics: UA-code-here
+google_analytics: "G-NW7W22XNC2"
 cookie_policy: 
 
 defaults:
