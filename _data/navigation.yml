@@ -2,15 +2,15 @@
   link: /#
   dropdown:
     - name: UMCS
-      link: /umcs.html
+      link: /psu-categories/umcs.html
     - name: RTEs
-      link: /rtes.html
+      link: /psu-categories/rtes.html
     - name: Apps
-      link: /index.html
+      link: /psu-categories/apps.html
     - name: System-Apps
-      link: /sysapps.html
+      link: /psu-categories/sysapps.html
     - name: Games
-      link: /games.html 
+      link: /psu-categories/games.html 
     - name: Other
-      link: /other.html
+      link: /psu-categories/other.html
     
