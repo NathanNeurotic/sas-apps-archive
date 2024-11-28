@@ -38,7 +38,7 @@ layout: default
     
 <div style="width: 100%; overflow: auto; flow: left; margin-left: 10px; margin-right: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
     <p class="title is-5 has-text-left">Select version of {{ page.title }} to download:</p></br>
-<div style="flow: left" class="sysappslist-multi_button_flex"><div style="align-self: center; margin-right: 10px">
+<div style="flow: left" class="applist-multi_button_flex"><div style="margin-right: 10px">
     <select class="download_btn" id="download_select">
         <option value="{{ page.download_1 }}">{{ page.name_download_1 }}</option>
       {% if page.download_2 %}
@@ -85,11 +85,11 @@ layout: default
       {% endif %}
     </select></div></br>
     
-<div style="align-self: center; margin-right: 10px">
-    <a type="button" onclick="window.location.href=document.getElementById('download_select').value" class="download_btn"><i style='color: wheat' class='fas fa-download'></i> Download</a>
+<div style="margin-right: 10px">
+    <button type="button" onclick="window.location.href=document.getElementById('download_select').value" class="download_btn"><i style='color: wheat' class='fas fa-download'></i> Download</button>
 </div></br>
   
-<div style="align-self: center">
+<div>
 {% if page.visit_project %}
 <script>
     function project_link() {
@@ -100,7 +100,7 @@ layout: default
     }
     project_link();
 </script>
-<a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
+<button id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</button>
                 {% endif %}</div></div>
             
         {% endif %}
