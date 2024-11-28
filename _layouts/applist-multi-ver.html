@@ -1,0 +1,224 @@
+---
+layout: default
+---
+
+<div class="columns is-multiline">
+    <div class="column is-6">
+        <figure class="image is-4by3">
+            <img style="border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px" src="{{ page.image }}">
+        </figure>
+    </div>
+
+    <div class="column is-6">
+        <p class="title is-3">{{ page.title }}</p>
+        <p class="subtitle is-3">{{ page.subtitle }}</p></br>
+        <p class="title is-5 has-text-right">by {{ page.developer }}</p></br>
+        <p class="title is-5 has-text-left">Version: {{ page.version }}</p>
+       <!-- {% if page.app_code %}
+            <p class="subtitle is-5 has-text-right">{{ page.app_code }}</p>
+        {% endif %} 
+        {% if page.rating %}
+            {% include rating.html rating=page.rating %}
+        {% endif %} -->
+    </br>
+        {% if page.features %}
+            <div class="content">
+                {% for feature in page.features %}
+                    <p>
+                        <span class="icon">
+                            {% if feature.icon %}
+                                <i class="fas {{ feature.icon }}"></i>
+                            {% else %}
+                                <i class="fas fa-circle fa-xs"></i>
+                            {% endif %}
+                        </span>
+                        <span>{{ feature.label }}</span>
+                    </p>
+                {% endfor %}
+                </br></div></div></br>
+    
+<div style="width: 100%; overflow: auto; flow: left; margin-left: 10px; margin-right: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
+    <p class="title is-5 has-text-left">Select version of {{ page.title }} to download:</p></br>
+<div style="flow: left; margin-right: 10px" class="applist-multi_button_flex"><div style="align-self: center; margin-right: 10px">
+        <select style="margin-right: 10px" class="download_btn" id="firstMenu" onchange="updateSecondMenu()">
+        <option value="">Select fork</option>
+        <option value="game_id">Game ID</option>
+        <option value="grimdoomer">Grimdoomer's Fork</option>
+        <option value="krahjohlito">KrahJohlito's Fork</option>
+        <option value="dailybuilds">⚠️ OPL 10th Anniversary (Daily Builds) ⚠️</option>
+        </select>
+
+        <select style="margin-right: 10px" class="download_btn" id="secondMenu">
+            <option value="">Select version</option>
+        </select>
+
+    <!-- Download -->
+    <button class="download_btn" id="downloadBtn" onclick="goToUrl()" disabled><i style='color: wheat' class='fas fa-download'></i> Download</button>
+
+    <script>
+        const data = {
+            game_id: {
+                Latest: {
+                    url: "https://app.filen.io/#/d/79b254ad-c4ab-456c-9708-44e076edbeb4#1kGrXHLES1T6mMuF8tqWKvGSc6szuA7B",
+                    variants: ['']
+                },
+            },
+            grimdoomer: {
+                GD02DBG: {
+                    url: "https://app.filen.io/#/d/93ddc7a0-0f1d-4c5a-a9fe-0cde30e6a344#4PUliBQCkrxam5GAzMoktvlnccaTOGQQ",
+                    variants: ['']
+                },
+                GD: {
+                    url: "https://app.filen.io/#/d/3c7c34a6-64f4-45cc-9d3c-6a06ef971c8b#XE5KIYed9TVOiW8g3iOj5BBWWN9zGrQg",
+                    variants: ['']
+                },
+                GDPADEMU: {
+                    url: "https://app.filen.io/#/d/428783b1-d713-45c0-a536-5bfa87d93959#PHew200BXvmc0yQWZifWA7V0S4kHYUqs",
+                    variants: ['']
+                },
+                GDUDMAPLUS: {
+                    url: "https://app.filen.io/#/d/9d32c70a-ea4e-45f0-89c8-f34e101c7f42#lqWmFpbDtCis2rQDNvxUG72GcGKSli77",
+                    variants: ['']
+                },
+                GD03PAD: {
+                    url: "https://app.filen.io/#/d/06a1170c-c123-4944-a1a9-012da7f0ba70#RRLCWF5rIIcz06aTwLXL4zAJUkw5BUqK",
+                    variants: ['']
+                },
+                GD04PAD: {
+                    url: "https://app.filen.io/#/d/6155ec39-52fa-4d85-a599-60ed4e0db285#edUS1NmZWCP2IhJCMbD1SUNHMIizI70G",
+                    variants: ['']
+                },
+                GD05PAD: {
+                    url: "https://app.filen.io/#/d/03d2ada2-10b7-40a6-8770-bad0f1392157#y9ktktdJAOy6ixtvIeVIELW0NiDB0Qp7",
+                    variants: ['']
+                },
+                GD06PAD: {
+                    url: "https://app.filen.io/#/d/4bc14c39-c552-41dd-90ed-9972af5a5d99#tXBmu6OPanxGJA8n9VmLvmJTERo3f6dE",
+                    variants: ['']
+                },
+                GD06UDMAP: {
+                    url: "https://app.filen.io/#/d/d1869940-5d1e-46b5-8af8-55118c34a6d1#rTXiVY14rfyJrI1UMqlR5nypwgXSkU4H",
+                    variants: ['']
+                },
+                GD1202: {
+                    url: "https://app.filen.io/#/d/c93edbed-8af5-4246-ae04-6b78131d05d3#UBuBtVOQFKAdwL1nSmkhz4bISRW9SMoi",
+                    variants: ['']
+                },
+                GD1203: {
+                    url: "https://app.filen.io/#/d/488df625-c424-457c-afef-715b12219c64#OUzUm5GmHQ2L5BHMJggOMaeW8rP7HxMW",
+                    variants: ['']
+                },
+                GD1204: {
+                    url: "https://app.filen.io/#/d/1d8d45d7-df6e-417c-a93b-8fb3e11a447f#OuGE6hSAXleJ3erwl7oQyavXhHiQ1x4O",
+                    variants: ['']
+                },
+                GD1205: {
+                    url: "https://app.filen.io/#/d/f55d245a-45f4-4238-a680-7638aff5b660#I35wopmu7oIXnqiXJmxVobpd0iU7dgwL",
+                    variants: ['']
+                },
+                GD1206: {
+                    url: "https://app.filen.io/#/d/9b565d09-7a66-4c02-b3e0-7c590d619e73#IVTBmHsySDF8VPUdgc3iEMwyQd3cHqzf",
+                    variants: ['']
+                }
+            },
+
+            krahjohlito: {
+                Latest: {
+                    url: "https://streamable.com/lf027o",
+                    variants: ['']
+                }
+            },
+
+            dailybuilds: {
+                Latest: {
+                    url: "https://app.filen.io/#/d/3907a52b-65f9-49d1-b545-b35d86009108#xhwZrYW5Gn6S6sYRQtwXDk8VGGBd5D1o",
+                    variants: ['']
+                }
+            }
+        };
+
+        let selectedCategory = '';
+        let selectedItem = '';
+        let selectedVariant = '';
+
+        function updateSecondMenu() {
+            const firstMenuValue = document.getElementById('firstMenu').value;
+            const secondMenu = document.getElementById('secondMenu');
+            const downloadBtn = document.getElementById('downloadBtn');
+
+            secondMenu.innerHTML = '<option value="">Select version</option>';
+            downloadBtn.disabled = true;
+
+            if (firstMenuValue) {
+                const items = Object.keys(data[firstMenuValue]);
+                items.forEach(item => {
+                    const option = document.createElement('option');
+                    option.value = item;
+                    option.textContent = item.charAt(0).toUpperCase() + item.slice(1);
+                    secondMenu.appendChild(option);
+                });
+                secondMenu.disabled = false;
+            } else {
+                secondMenu.disabled = true;
+            }
+        }
+
+        document.getElementById('secondMenu').addEventListener('change', function() {
+            selectedCategory = document.getElementById('firstMenu').value;
+            selectedItem = this.value;
+
+            const downloadBtn = document.getElementById('downloadBtn');
+            if (selectedCategory && selectedItem) {
+                selectedVariant = data[selectedCategory][selectedItem].variants[0]; 
+                downloadBtn.disabled = false;
+            } else {
+                downloadBtn.disabled = true;
+            }
+        });
+
+        function goToUrl() {
+            if (selectedCategory && selectedItem) {
+                const url = data[selectedCategory][selectedItem].url;
+                window.location.href = url;
+            } else {
+                alert('Please select fork and version before proceeding!');
+            }
+        }
+    </script></br>
+  
+<div style="align-self: center">
+{% if page.visit_project %}
+<script>
+    function project_link() {
+      var bits = ["https://"];
+      bits.push("{{ page.visit_project }}");
+      var url = bits.join("");
+      document.getElementById("vplink").setAttribute("href",url);
+    }
+    project_link();
+</script>
+<a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
+                {% endif %}</div></div>
+            
+        {% endif %}
+    </br></div></div>
+    
+<div style="width: 100%; padding: 10px"><div style="border-radius: 10px; padding: 10px; border: 2px outset wheat" class="app_desc">
+    <div style="font-weight: bold" class="column is-12">
+    </br>
+        <p class="title is-4">Description</p>
+    </br>
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+</div></div>
+    {% if site.data.reviews[page.app_code] %}
+        <div class="column is-12">
+            <p class="title is-4">Reviews</p>
+            {% for review in site.data.reviews[page.app_code] %}
+                {% include review.html %}
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
