@@ -38,7 +38,7 @@ layout: default
         
 <div style="width: 100%; overflow: auto; flow: left; margin-left: 10px; margin-right: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
     <p class="title is-5 has-text-left">Download {{ page.title }}:</p></br>
-<div style="flow: left" class="applist-multi_button_flex">
+<div style="flow: left; align-items: baseline;" class="applist-multi_button_flex">
 {% if page.download %}
 <script>
     function download_link() {
@@ -50,7 +50,7 @@ layout: default
     download_link();
 </script>
 <div style="align-self: left; margin-right: 10px">
-<button id="dllink" href="" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</button>
+<a id="dllink" href="" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
 </div></br>{% endif %}
 
 {% if page.visit_project %}
@@ -64,14 +64,13 @@ layout: default
     project_link();
 </script>
 <div style="align-self: left">
-<button id="vplink" href="" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</button>
+<a id="vplink" href="" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
 </div>
 {% endif %}
 </div>
-            
-        {% endif %}
-    </br></div>
-    
+{% endif %}
+</br></div>
+         
 <div style="width: 100%; padding: 10px"><div style="border-radius: 10px; padding: 10px; border: 2px outset wheat" class="umcs_desc">
     <div style="font-weight: bold" class="column is-12">
     </br>
