@@ -52,7 +52,7 @@ layout: default
 <div style="align-self: left; margin-right: 10px">
 <button id="dllink" href="" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</button>
 </div></br>{% endif %}
-<div style="align-self: left">
+
 {% if page.visit_project %}
 <script>
     function project_link() {
@@ -63,7 +63,8 @@ layout: default
     }
     project_link();
 </script>
-<a id="vplink" href="" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
+<div style="align-self: left">
+<button id="vplink" href="" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</button>
                  {% endif %}</div></div>
             
         {% endif %}
