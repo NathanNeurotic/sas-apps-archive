@@ -36,7 +36,7 @@ layout: default
                 {% endfor %}
                 </br></div></div></br>
     
-<div style="width: 100%; overflow: auto; flow: left; margin-left: 10px; margin-right: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
+<div style="align-items: baseline; width: 100%; overflow: auto; flow: left; margin-left: 10px; margin-right: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
     <p class="title is-5 has-text-left">Select version of {{ page.title }} to download:</p></br>
 <div style="flow: left" class="applist-multi_button_flex"><div style="margin-right: 10px">
     <select class="download_btn" id="download_select">
@@ -100,7 +100,7 @@ layout: default
     }
     project_link();
 </script>
-<a style="vertical-align: middle" id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
+<a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
                 {% endif %}</div></div>
             
         {% endif %}
