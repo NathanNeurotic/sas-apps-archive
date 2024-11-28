@@ -46,15 +46,17 @@ layout: default
         <option value="grimdoomer">Grimdoomer's Fork</option>
         <option value="krahjohlito">KrahJohlito's Fork</option>
         <option value="dailybuilds">⚠️ OPL 10th Anniversary (Daily Builds) ⚠️</option>
-        </select>
+        </select></div>
 
-        <select style="margin-right: 10px" class="download_btn" id="secondMenu">
+        <div><select style="margin-right: 10px" class="download_btn" id="secondMenu">
             <option value="">Select version</option>
-        </select>
+        </select></div>
 
     <!-- Download -->
-    <button class="download_btn" id="downloadBtn" onclick="goToUrl()" disabled><i style='color: wheat' class='fas fa-download'></i> Download</button>
-
+    <div>
+    <a class="download_btn" id="downloadBtn" onclick="goToUrl()" disabled><i style='color: wheat' class='fas fa-download'></i> Download</a>
+    </div>
+    
     <script>
         const data = {
             game_id: {
