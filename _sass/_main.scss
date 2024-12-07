@@ -58,7 +58,7 @@ $hero-darken: $dark !default;
   align-items: center; 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .applist-multi_button_flex {
   display: flex;
   align-items: initial; 
@@ -68,7 +68,7 @@ $hero-darken: $dark !default;
 
 /*------------------- FOOTER-------------------*/
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
 .footer_font_adjust {
   font-size: 0.7em;
   }
