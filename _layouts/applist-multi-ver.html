@@ -36,13 +36,4 @@ layout: default
                     </p>
                 {% endfor %}
                 </br></div></div></br>
-    
-    {% if site.data.reviews[page.app_code] %}
-        <div class="column is-12">
-            <p class="title is-4">Reviews</p>
-            {% for review in site.data.reviews[page.app_code] %}
-                {% include review.html %}
-            {% endfor %}
-        </div>
-    {% endif %}
 </div>
