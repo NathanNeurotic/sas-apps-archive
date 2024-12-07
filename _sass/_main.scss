@@ -61,8 +61,8 @@ $hero-darken: $dark !default;
 @media (max-width: 400px) {
   .applist-multi_button_flex {
   display: flex;
-  flex-direction: column;
   align-items: left; 
+  flex-direction: column;
   }
 }
 
