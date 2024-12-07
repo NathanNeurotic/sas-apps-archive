@@ -179,9 +179,11 @@ rating: 5
     }
     project_link();
 </script>
+{% if page.visit_project %}
 <div style="flow: left; align-self: center">
 <a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
-                </div></div>
+</div>{% endif %}
+</div>
             
     </br></div></div></div>
     
