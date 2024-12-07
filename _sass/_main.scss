@@ -63,3 +63,11 @@ $hero-darken: $dark !default;
   flex-direction: column;
   }
 }
+
+/*------------------- FOOTER-------------------*/
+
+@media (max-width: 400px) {
+.footer_font_adjust {
+  font-size: 0.75em;
+  }
+}
