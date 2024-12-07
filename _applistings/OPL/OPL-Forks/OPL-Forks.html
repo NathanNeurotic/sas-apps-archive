@@ -22,8 +22,7 @@ visit_project: https://github.com/ps2homebrew/Open-PS2-Loader
 
 <div style="width: 100%; overflow: auto; flow: left; margin-left: 10px; margin-right: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
     <p class="title is-5 has-text-left">Select version of {{ page.title }} to download:</p></br>
-<div style="display: flex; align-items: center">
-    <div style="flow: left; margin-right: 10px" class="applist-multi_button_flex"><div style="align-self: left">
+    <div style="flow: left; align-items: center; margin-right: 10px" class="applist-multi_button_flex"><div style="align-self: left">
         <select style="margin-right: 10px" class="download_btn" id="firstMenu" onchange="updateSecondMenu()">
         <option value="">Select Fork</option>
         <option value="game_id">GameID Fork</option>
@@ -180,12 +179,12 @@ visit_project: https://github.com/ps2homebrew/Open-PS2-Loader
       document.getElementById("vplink").setAttribute("href",url);
     }
     project_link();
-</script></br></br>
+</script>
 {% if page.visit_project %}
 <div style="flow: left">
 <a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
 </div>{% endif %}
-</div></div>
+</div>
             
 </br></div></div></div>
     
