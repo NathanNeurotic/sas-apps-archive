@@ -8,7 +8,7 @@ hide_hero: true
 app_code: APL003-002
 layout: applist
 image: https://github.com/bucanero/apollo-ps2/raw/main/docs/screenshots/screenshot-main.png
-version: v0.7.0
+version: v1.0.0
 features:
     - label: Compatible across all models
       icon: fa-user-check
