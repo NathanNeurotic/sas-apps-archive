@@ -16,7 +16,7 @@ features:
       icon: fa-file-upload
     - label: Highly popular
       icon: fa-chart-line
-download: https://app.filen.io/#/d/865bf748-3ac2-41f2-bad6-771c7efdc249#ffIpL6W4dfJFwXcWqyG4Zzk3nuJ3Xn3w
+download: https://github.com/bucanero/apollo-ps2/releases/download/v1.0.0/APP_APOLLO.psu
 rating: 5
 ---
 
