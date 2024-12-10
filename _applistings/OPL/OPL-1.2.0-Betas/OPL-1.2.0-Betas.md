@@ -24,8 +24,8 @@ name_download_1: v1.2.0-Beta-2172
 download_1: https://app.filen.io/#/d/4317bfa3-b2e5-4c44-9667-989887c5cdee#Na0OyhlUCp6QW7iYMf5uTILLS4IfmdoM
 
 # 2
-# name_download_2: v1.2.0-Beta-2173
-# download_2: https://app.filen.io/#/d/ceabb769-976b-43e4-8f1c-766457eb7ee9#6CMoEjTsQ0GcyXVVenC1AXQ5Fb58t0tg
+name_download_2: v1.2.0-Beta-2173
+download_2: https://app.filen.io/#/d/ceabb769-976b-43e4-8f1c-766457eb7ee9#6CMoEjTsQ0GcyXVVenC1AXQ5Fb58t0tg
 ---
 
 Open PS2 Loader (OPL) is a 100% Open source game and application loader for the PS2 and PS3 units. It supports five categories of devices: USB mass storage devices, MX4SIO (SD card connected to memory card port via adapter), iLink (SBP2 compliant storage devices via IEE1394), SMBv1 shares and the PlayStation 2 HDD unit. USB/SMB/MX4SIO/iLink support both USBExtreme and *.ISO formats while PS2 HDD supports HDLoader format, all devices also support ZSO format (compressed ISO). It's now the most compatible homebrew loader.  
