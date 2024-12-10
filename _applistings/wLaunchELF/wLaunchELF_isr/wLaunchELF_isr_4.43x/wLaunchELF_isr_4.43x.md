@@ -20,11 +20,11 @@ features:
 rating: 5
 
 #1
-name_download_1: ISR Standard
+name_download_1: Basic Version
 download_1: https://app.filen.io/#/d/106f8f8f-c079-494a-8ae9-6eac331016d8#GvBc5IpVnStGoc83r2yh6GnBAaoBmUWR
 
 #2
-name_download_2: ISRA
+name_download_2: All Features
 download_2: https://app.filen.io/#/d/50ca09b2-f5d3-4c83-a114-e8d41003505a#uqa1dhvbmw9ZbSzThUpOFYjsQJcJI5YR
 
 #3
@@ -40,7 +40,7 @@ name_download_5: ExFAT - DualShock 3/4
 download_5: https://app.filen.io/#/d/f145c0f2-474f-4c92-849c-c3ae23995116#JnyWxEl5fcIGETp3HT7EtWnLivciZyNr
 
 #6
-name_download_6: ExFAT - DualShock 3/4 - No Network
+name_download_6: ExFAT - DS3/4 - No Net
 download_6: https://app.filen.io/#/d/b2838756-01fa-4962-9b26-bf342f0ef826#EtG1TEuMcrEBvnFMjOazCMiFkwwovxOW
 
 #7
@@ -48,15 +48,15 @@ name_download_7: ExFAT - No Network
 download_7: https://app.filen.io/#/d/7d06f8d7-79af-41cb-bc2b-a81368e31629#mV51h5s3ttNNgZuCOtHG0Zsev8ceBWLg
 
 #8
-name_download_8: MX4SIO
+name_download_8: MX4SIO - ExFAT
 download_8: https://app.filen.io/#/d/e7bbc8b5-3734-4ed4-9a76-d3758d29c1ee#NLgP03Uv7Pmy3Iem7WsdiSb7Dh0HtjWW
 
 #9
-name_download_9: MX4SIO - DualShock 3/4
+name_download_9: MX4SIO - ExFAT - DS3/4
 download_9: https://app.filen.io/#/d/c99726a0-7fea-4c30-85d9-dba23f678cb2#l7SuNvRNjiKfGVenFrKptxot5nePNiRd
 
 #10
-name_download_10: MX4SIO - No Network
+name_download_10: MX4SIO - ExFAT - No Network
 download_10: https://app.filen.io/#/d/858b4f09-d00f-4718-a010-fbf43340bc2b#VrQ8Em5Y5aH8OyA4OxJsElzJomndZyk4
 
 #11
