@@ -1,15 +1,15 @@
 ---
 title: wLaunchELF Isra's Fork
-subtitle: Stable fork of the most famous file browser for Playstation 2
+subtitle: Stable fork of the most famous file browser and manager for Playstation 2
 description: >-
-    Stable fork of the most famous file browser for Playstation 2
+    Stable fork of the most famous file browser and manager for Playstation 2
 developer: El_isra
 visit_project: https://israpps.github.io/projects/wlaunchelf-isr
 hide_hero: true
 app_code: APL003-008
 layout: applist-multi
 image: https://user-images.githubusercontent.com/57065102/226750383-e6b8d934-aa60-4825-95bd-968a898f6e9e.png
-version: 4.43x
+version: v4.43x
 features:
     - label: Compatible across all models
       icon: fa-user-check
