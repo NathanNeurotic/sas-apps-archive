@@ -36,4 +36,4 @@ The emulator is entirely written in Assembler—around 120,000 lines—to ensure
 
 <strong>Note:</strong> Using the <code>8MB MemoryCard Patched</code> version sometimes breaks the Custom Dakota Speedway protocols which can result in some games not booting properly or crashing after a few minutes. If possible use the <code>Full Release</code> instead.
 
-<strong>Release Mirror:</strong> <a href="https://app.filen.io/#/f/56534c73-7913-4400-8750-90cb0c0c1b09#AmFGi4odwtaCUtvNbOg9aqGd4ugemDzt">X2P Folder at Filen</a>
+<strong>Release Mirror:</strong> <a href="https://github.com/koraxial/Xbox-2-PlayStation-Emulator-AlFa/releases/tag/SAS">X2P Releases page</a>
