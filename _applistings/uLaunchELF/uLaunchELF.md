@@ -4,7 +4,6 @@ subtitle: An old file browser and manager for Playstation 2
 description: >-
    An old file browser and manager for Playstation 2
 developer: EP & dlanor
-
 hide_hero: true
 app_code: APL003-010
 layout: applist-multi
