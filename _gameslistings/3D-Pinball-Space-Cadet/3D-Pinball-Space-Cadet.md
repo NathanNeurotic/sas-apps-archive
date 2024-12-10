@@ -24,10 +24,14 @@ Port of 3D Pinball - Space Cadet to the PlayStation 2, based on the [decompilati
 
 Built with [PS2SDK](https://github.com/ps2dev/ps2sdk)
 
-Game data from 3D Pinball Space Cadet (Windows 95 Plus, Windows XP...) or from Full Tilt! Pinball ("CADET" table) must be placed in `mass:/APPS/3DPINBALL` ("mass" being USB storage).
+Game data from 3D Pinball Space Cadet (Windows 95 Plus, Windows XP...) or from Full Tilt! Pinball ("CADET" table) must be placed in `mass:/APPS/3DPINBALL` ("mass" being USB storage). 
+
+<br>
 
 #### Known Issues
 * Full Tilt Pinball table appears to only work on PCSX2 and not on real hardware
+  
+<br>
 
 #### Controls
 * Down / Cross (X): Launch ball
