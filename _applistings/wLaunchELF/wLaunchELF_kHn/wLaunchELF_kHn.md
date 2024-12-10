@@ -12,7 +12,7 @@ version: v4.42a
 features:
     - label: Compatible across all models
       icon: fa-user-check
-    - label: Updated continuously
+    - label: Last Updated in 2020
       icon: fa-file-upload
     - label: Highly popular
       icon: fa-chart-line
