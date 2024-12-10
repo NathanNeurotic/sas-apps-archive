@@ -25,9 +25,9 @@ visit_project: https://github.com/ps2homebrew/Open-PS2-Loader
     <div style="flow: left; margin-right: 10px" class="applist-multi_button_flex"><div style="align-self: left">
         <select style="margin-right: 10px" class="download_btn" id="firstMenu" onchange="updateSecondMenu()">
         <option value="">Select Fork</option>
+        <option value="krahjohlito">KrahJohlito's Fork</option>
         <option value="game_id">GameID Fork</option>
         <option value="grimdoomer">Grimdoomer's Fork</option>
-        <option value="krahjohlito">KrahJohlito's Fork</option>
         <option value="dailybuilds">⚠️ 10th Anniversary</option>
         </select></div></br>
 
@@ -42,81 +42,82 @@ visit_project: https://github.com/ps2homebrew/Open-PS2-Loader
     
     <script>
         const data = {
+            krahjohlito: {
+                Latest: {
+                    url: "https://app.filen.io/#/d/8427c7fd-87fb-4e95-9115-17282631fee5#MjdcYlZjWIbWRbiF0fxEjBaFAftPMEMF",
+                    variants: ['']
+                }
+            },
+            
             game_id: {
                 Latest: {
-                    url: "https://app.filen.io/#/d/79b254ad-c4ab-456c-9708-44e076edbeb4#1kGrXHLES1T6mMuF8tqWKvGSc6szuA7B",
+                    url: "https://app.filen.io/#/d/3fc578e2-de8b-4d72-a564-22058fe50070#F5x1G93DIV9RY736G6e9pBgTdevdWvxx",
                     variants: ['']
                 },
             },
+            
             grimdoomer: {
-                GD02DBG: {
-                    url: "https://app.filen.io/#/d/93ddc7a0-0f1d-4c5a-a9fe-0cde30e6a344#4PUliBQCkrxam5GAzMoktvlnccaTOGQQ",
+                GD: {
+                    url: "https://app.filen.io/#/d/10ac232e-4e5a-4cf9-8e5e-39ceb78bfd60#sNqh3xcbpkfGjow3bk7oLIdBzyIgcEPP",
                     variants: ['']
                 },
-                GD: {
-                    url: "https://app.filen.io/#/d/3c7c34a6-64f4-45cc-9d3c-6a06ef971c8b#XE5KIYed9TVOiW8g3iOj5BBWWN9zGrQg",
+                GD02DBG: {
+                    url: "https://app.filen.io/#/d/03933c7b-1f3d-4d44-8ad0-fd72e64cc27c#MBXrdNG9v6hDcP6s7nsAgKt0ArlBXeCm",
                     variants: ['']
                 },
                 GDPADEMU: {
-                    url: "https://app.filen.io/#/d/428783b1-d713-45c0-a536-5bfa87d93959#PHew200BXvmc0yQWZifWA7V0S4kHYUqs",
+                    url: "https://app.filen.io/#/d/0d61f3fd-cb1f-4cd9-ba07-7d05a8f34c49#Nk1pxBpHjiZDmclEUDPYbZH00zD2aCb2",
                     variants: ['']
                 },
                 GDUDMAPLUS: {
-                    url: "https://app.filen.io/#/d/9d32c70a-ea4e-45f0-89c8-f34e101c7f42#lqWmFpbDtCis2rQDNvxUG72GcGKSli77",
+                    url: "https://app.filen.io/#/d/98a9eed9-bb94-4064-b7c9-90b762b23ba0#e3yEcHKNS7LLMTrzjafdteSZf1jl3HTG",
                     variants: ['']
                 },
                 GD03PAD: {
-                    url: "https://app.filen.io/#/d/06a1170c-c123-4944-a1a9-012da7f0ba70#RRLCWF5rIIcz06aTwLXL4zAJUkw5BUqK",
+                    url: "https://app.filen.io/#/d/af037fc8-c222-48a0-b00c-cf94f1c22170#UN5cAmJKgSotqJj5sfzpnxDivgkCjWMt",
                     variants: ['']
                 },
                 GD04PAD: {
-                    url: "https://app.filen.io/#/d/6155ec39-52fa-4d85-a599-60ed4e0db285#edUS1NmZWCP2IhJCMbD1SUNHMIizI70G",
+                    url: "https://app.filen.io/#/d/c748f78d-1c9f-4676-b18b-e173b31caa03#zpm3QUrhnaluz04OqXHNA5JXhwQvgNCh",
                     variants: ['']
                 },
                 GD05PAD: {
-                    url: "https://app.filen.io/#/d/03d2ada2-10b7-40a6-8770-bad0f1392157#y9ktktdJAOy6ixtvIeVIELW0NiDB0Qp7",
+                    url: "https://app.filen.io/#/d/b27321cb-5c6c-4faf-acca-1344139f4bb4#SGgAsrcdyDzfRaoLX2MYfsWbovSduF0y",
                     variants: ['']
                 },
                 GD06PAD: {
-                    url: "https://app.filen.io/#/d/4bc14c39-c552-41dd-90ed-9972af5a5d99#tXBmu6OPanxGJA8n9VmLvmJTERo3f6dE",
+                    url: "https://app.filen.io/#/d/6cf4fc10-82ed-4013-ad40-74ae223e9971#dCUjyjxEfx82O977lHyGQR7tfqie0EyO",
                     variants: ['']
                 },
                 GD06UDMAP: {
-                    url: "https://app.filen.io/#/d/d1869940-5d1e-46b5-8af8-55118c34a6d1#rTXiVY14rfyJrI1UMqlR5nypwgXSkU4H",
+                    url: "https://app.filen.io/#/d/d7591563-25b7-43f2-b0ac-5e3c404a0fed#cD3FWpLQn0MybhV1rEWKGdcDPOCCjgZv",
                     variants: ['']
                 },
                 GD1202: {
-                    url: "https://app.filen.io/#/d/c93edbed-8af5-4246-ae04-6b78131d05d3#UBuBtVOQFKAdwL1nSmkhz4bISRW9SMoi",
+                    url: "https://app.filen.io/#/d/0269d8d7-049e-4ae9-b6d1-fe63687ac63e#PjbdByPcPXUU9ZWgbkZ45YPqHWSQfUzk",
                     variants: ['']
                 },
                 GD1203: {
-                    url: "https://app.filen.io/#/d/488df625-c424-457c-afef-715b12219c64#OUzUm5GmHQ2L5BHMJggOMaeW8rP7HxMW",
+                    url: "https://app.filen.io/#/d/7586daf7-19e9-45af-a91e-598b618eb661#pCSG1froHHEcgBDJ2UFXohHzNSXQABgV",
                     variants: ['']
                 },
                 GD1204: {
-                    url: "https://app.filen.io/#/d/1d8d45d7-df6e-417c-a93b-8fb3e11a447f#OuGE6hSAXleJ3erwl7oQyavXhHiQ1x4O",
+                    url: "https://app.filen.io/#/d/5bc186ff-9167-4bb5-b64f-4691a2d56d22#8DmXXckap1ehBlNuadFrbOcV3SWA91re",
                     variants: ['']
                 },
                 GD1205: {
-                    url: "https://app.filen.io/#/d/f55d245a-45f4-4238-a680-7638aff5b660#I35wopmu7oIXnqiXJmxVobpd0iU7dgwL",
+                    url: "https://app.filen.io/#/d/20a378d9-7d90-4fc8-83bf-763413a9bf91#4ho4eD9YaRa9IxbyAjkJQBTqZ9KYX86a",
                     variants: ['']
                 },
                 GD1206: {
-                    url: "https://app.filen.io/#/d/9b565d09-7a66-4c02-b3e0-7c590d619e73#IVTBmHsySDF8VPUdgc3iEMwyQd3cHqzf",
+                    url: "https://app.filen.io/#/d/c439a12d-d76a-4f1c-bd12-0ffa19728b35#fCGRSXWc3dFhSkKt6qWG7BraPoewWkhn",
                     variants: ['']
                 }
             },
-
-            krahjohlito: {
-                Latest: {
-                    url: "https://streamable.com/lf027o",
-                    variants: ['']
-                }
-            },
-
+            
             dailybuilds: {
                 Latest: {
-                    url: "https://app.filen.io/#/d/3907a52b-65f9-49d1-b545-b35d86009108#xhwZrYW5Gn6S6sYRQtwXDk8VGGBd5D1o",
+                    url: "https://app.filen.io/#/d/3504eebc-d7a2-4735-97ab-ca47ca6f5337#iOY3RSzWeg6wH2gnHpCXhkXgAaaDaxb1",
                     variants: ['']
                 }
             }
