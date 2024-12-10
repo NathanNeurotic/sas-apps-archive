@@ -56,7 +56,7 @@ name_download_9: MX4SIO - ExFAT - DS3/4
 download_9: https://app.filen.io/#/d/c99726a0-7fea-4c30-85d9-dba23f678cb2#l7SuNvRNjiKfGVenFrKptxot5nePNiRd
 
 #10
-name_download_10: MX4SIO - ExFAT - No Network
+name_download_10: MX4SIO - ExFAT - No Net
 download_10: https://app.filen.io/#/d/858b4f09-d00f-4718-a010-fbf43340bc2b#VrQ8Em5Y5aH8OyA4OxJsElzJomndZyk4
 
 #11
@@ -64,7 +64,7 @@ name_download_11: DualShock 3/4
 download_11: https://app.filen.io/#/d/037b6a54-06de-475c-9922-f2d09826a7ba#c0x8CULZYRvIH1If5c7X3ioezzTbJ5ye
 
 #12
-name_download_12: DualShock 3/4 - No Network
+name_download_12: DualShock 3/4 - No Net
 download_12: https://app.filen.io/#/d/aafd7000-6bbd-403e-a179-70c453737dfb#GYbrH0qDv0Hp227PZ6TzdIEhkLkC4upp
 
 #13
