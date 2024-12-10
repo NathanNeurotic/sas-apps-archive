@@ -1,5 +1,5 @@
 ---
-title: wLaunchELF Isra's Fork
+title: wLaunchELF El Isra's Fork
 subtitle: Stable fork of the most famous file browser and manager for Playstation 2
 description: >-
     Stable fork of the most famous file browser and manager for Playstation 2
