@@ -8,7 +8,7 @@ description: >-
 developer: no.1reb, Noiruto, Torpi & 0amlAF
 visit_project: https://github.com/koraxial/Xbox-2-PlayStation-Emulator-AlFa/
 hide_hero: true
-app_code: APL003-003-01
+app_code: APL003-001-03
 layout: applist-multi
 image: https://www.psx-place.com/attachments/opnps2ld-v1-2-0-beta-2082-c27f39a-_-_opnps2ld-v1-2-0-beta-2082-c27f39a_20240409190803-png.42757/
 version: v0.5.4
@@ -22,7 +22,7 @@ features:
 rating: 01042024
 
 #1
-name_download_1: 8MB MemoryCard Patched
+name_download_1: 8MB MC Patched
 download_1: https://ps2wiki.github.io/sas-apps-archive/applistings/Xbox-2-PlayStation/8MBMCP/download-8MBMCP.html
 
 #2
