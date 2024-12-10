@@ -34,6 +34,6 @@ X2P is an Xbox emulator for the PlayStation 2. It was developed in secrecy, with
 
 The emulator is entirely written in Assembler—around 120,000 lines—to ensure efficiency surpassing that of C implementations. However, it's important to note that it only operates on DECKARD models, thanks to their faster PPC (replacing the IOP) and a sufficiently large L-cache to handle the Xbox's additional RAM compared to the PS2's capabilities. Full-speed emulation is technically unfeasible, particularly for demanding games like Conker or Oddworld SW. Nevertheless, many games run well, including the first Halo, while some, such as GTA SA, only boot to a black screen.  
 
-<strong>Note:</strong> Using the <code>8MB MemoryCard Patched</code> version sometimes breaks the Custom Dakota Speedway protocols which can result in some games not booting properly or crashing after a few minutes. If possible use the full non-MC release <code>Full Release</code> instead.
+<strong>Note:</strong> Using the <code>8MB MemoryCard Patched</code> version sometimes breaks the Custom Dakota Speedway protocols which can result in some games not booting properly or crashing after a few minutes. If possible use the <code>Full Release</code> instead.
 
 <strong>Release Mirror:</strong> <a href="https://app.filen.io/#/f/56534c73-7913-4400-8750-90cb0c0c1b09#AmFGi4odwtaCUtvNbOg9aqGd4ugemDzt">X2P Folder at Filen</a>
