@@ -6,7 +6,7 @@ description: >-
 developer: ps2homebrew
 visit_project: https://github.com/ps2homebrew/Open-PS2-Loader
 hide_hero: true
-app_code: APL003-001-001
+app_code: APL003-001-01
 layout: applist-multi
 image: https://psx-core.ru/psx-art/logo.png
 version: v0.5 to v1.2.0-Beta-2049
