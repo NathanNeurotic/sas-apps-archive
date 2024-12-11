@@ -28,8 +28,8 @@ rating: 5
 # download_2: https://app.filen.io/#/d/9cfb46e4-a50c-4bcb-85f7-9e3e22fe9079#lkaH12c1vM3oDcOps8TpEeJZue0Q8dGb
 
 #3
-name_download_3: ⍟ v1.1.0
-download_3: https://app.filen.io/#/d/b4f8fad3-5978-4ab2-a02b-2f887929ec17#Nd7as1e2rkbTvmTnQpC0dkICyp98rZ7v
+name_download_1: ⍟ v1.1.0
+download_1: https://app.filen.io/#/d/b4f8fad3-5978-4ab2-a02b-2f887929ec17#Nd7as1e2rkbTvmTnQpC0dkICyp98rZ7v
 
 #4
 name_download_4: v1.0.0
