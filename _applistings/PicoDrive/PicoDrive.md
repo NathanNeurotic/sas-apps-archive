@@ -1,5 +1,5 @@
 ---
-title: PicoDrive
+title: '[EMU] PicoDrive'
 subtitle: A port of PicoDrive v1.51b for the PlayStation 2 console
 description: A port of PicoDrive v1.51b for the PlayStation 2 console
 developer: sp193
@@ -12,7 +12,7 @@ version: v1.13
 features:
     - label: Compatible across all models
       icon: fa-user-check
-    - label: Last updated in 2014
+    - label: Last Updated in 2014
       icon: fa-file-upload
     - label: Fairly popular
       icon: fa-chart-line
