@@ -1,5 +1,5 @@
 ---
-title: DKWDRV
+title: '[PS1] DKWDRV'
 subtitle: DKWDRV is a replacement for the original PS1DRV of Playstation 2 consoles
 description: DKWDRV is a replacement for the original PS1DRV of Playstation 2 consoles
 developer: anonymous
