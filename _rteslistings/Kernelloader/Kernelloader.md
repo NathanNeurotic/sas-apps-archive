@@ -8,7 +8,7 @@ visit_project: https://kernelloader.sourceforge.net/linux.html
 hide_hero: true
 rtes_code: RTL001-003
 layout: rteslist
-image: https://kernelloader.sourceforge.net/tutorial/kloader_select_kernel_usb.jpgg
+image: https://kernelloader.sourceforge.net/tutorial/kloader_select_kernel_usb.jpg
 version: v3.0
 features:
     - label: Compatible across all models
