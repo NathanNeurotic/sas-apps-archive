@@ -24,15 +24,15 @@ name_download_1: PS2Link
 download_1: https://app.filen.io/#/d/ac2e27b8-11c9-40f7-bf60-a1aaa8b6b8c8#F2F7KGsXLDfNbWk9t2TdhfKRAtLhu5fK
 
 # 2
-name_download_2: PS2Link-External IRXs
+name_download_2: PS2Link+External IRXs
 download_2: https://app.filen.io/#/d/37ea2468-b13f-44e5-924c-ae7c43d88c00#KNUYWwbhMMRcjgvw1iwq6FRaZbfdLm2U
 
 #1
-name_download_3: PS2Link-Highloading
+name_download_3: PS2Link Highloading
 download_3: https://app.filen.io/#/d/49869ad2-13ff-4022-aa6a-f3347638906c#eqIG3PtUiFy4gAlg7NDaTEMFvMrZ4cpP
 
 #4
-name_download_4: PS2Link-Highloading-ExtIRXs
+name_download_4: PS2Link HL+ExtIRXs
 download_4: https://app.filen.io/#/d/5678e6d5-240d-4fc8-b60b-622c66f4b8da#JqgbazD2PsEYcUjpPugRvX3IAFIEng6v
 ---
 
