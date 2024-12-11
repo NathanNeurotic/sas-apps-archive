@@ -2,7 +2,7 @@
 title: FMCB Configurator Standalone
 subtitle: Standalone ELF of the Free MCBoot Configurator
 description: More about FMCB Configurator
-developer:  Members of ps2homebrew
+developer:  ps2homebrew
 hide_hero: true
 sysapps_code: SAL001-001
 layout: sysappslist
