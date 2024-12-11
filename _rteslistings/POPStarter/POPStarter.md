@@ -1,6 +1,6 @@
 ---
 title: POPStarter
-subtitle: POPStarter is a launcher which lets you play your PS1 games in combination with $ony’s PS1 emulator for PS2 known as POPS
+subtitle: A launcher which lets you play your PS1 games in combination with $ony’s PS1 emulator known as POPS
 description: >- 
     POPStarter is a launcher which lets you play your PS1 games in combination with $ony’s PS1 emulator for PS2 known as “POPS” or 
     “SLBB-00001”
