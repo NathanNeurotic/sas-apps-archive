@@ -8,7 +8,7 @@ description: >-
 developer: no.1reb, Noiruto, Torpi & 0amlAF
 visit_project: https://github.com/koraxial/Xbox-2-PlayStation-Emulator-AlFa/
 hide_hero: true
-app_code: APL003-001-03
+app_code: APL003-013
 layout: applist-multi
 image: https://www.psx-place.com/attachments/opnps2ld-v1-2-0-beta-2082-c27f39a-_-_opnps2ld-v1-2-0-beta-2082-c27f39a_20240409190803-png.42757/
 version: v0.5.4
