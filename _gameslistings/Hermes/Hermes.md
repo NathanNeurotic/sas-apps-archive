@@ -8,7 +8,7 @@ hide_hero: true
 games_code: GAL001-002
 layout: gameslist
 image: https://i.postimg.cc/jSJDTtHS/screenshot-1.png
-version: v1.10
+version: v1.01
 features:
     - label: Compatible across all models
       icon: fa-user-check
