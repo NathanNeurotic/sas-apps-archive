@@ -1,5 +1,5 @@
 ---
-title: PS2Link
+title: [DBG] PS2Link
 subtitle: PS2-side boot loader
 description: >-
     PS2-side boot loader
