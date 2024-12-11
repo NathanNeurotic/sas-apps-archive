@@ -9,7 +9,7 @@ hide_hero: true
 app_code: APL003-001-01
 layout: applist-multi
 image: https://i.ytimg.com/vi/myyXYNEE_Ig/sddefault.jpg
-version: v0.5 to v1.2.0-Beta-2049
+version: v0.5 to v1.1.0
 features:
     - label: Compatible across all models
       icon: fa-user-check
@@ -20,10 +20,10 @@ features:
 rating: 5
 
 #1
-name_download_1: ⍟ v1.2.0-Beta-2049
-download_1: https://app.filen.io/#/d/bd8fa9cf-a838-444b-8f6c-23520e055a7e#xUAObLdWGOIquY4gZAmNPNqjarUbcbUP
+# name_download_1: ⍟ v1.2.0-Beta-2049
+# download_1: https://app.filen.io/#/d/bd8fa9cf-a838-444b-8f6c-23520e055a7e#xUAObLdWGOIquY4gZAmNPNqjarUbcbUP
 
-# 2
+#2
 # name_download_2:  v1.2.0-Beta-2049-GID fork
 # download_2: https://app.filen.io/#/d/9cfb46e4-a50c-4bcb-85f7-9e3e22fe9079#lkaH12c1vM3oDcOps8TpEeJZue0Q8dGb
 
