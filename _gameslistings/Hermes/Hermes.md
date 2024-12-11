@@ -1,7 +1,7 @@
 ---
 title: Hermes
-subtitle: An extraordinary Jump'n' Run game with plenty of bad taste humour
-description: An extraordinary Jump'n' Run game with plenty of bad taste humour
+subtitle: An extraordinary Jump 'n' Run game with plenty of bad taste humour
+description: An extraordinary Jump 'n' Run game with plenty of bad taste humour
 developer: Retroguru
 visit_project: https://www.retroguru.com/hermes/
 hide_hero: true
