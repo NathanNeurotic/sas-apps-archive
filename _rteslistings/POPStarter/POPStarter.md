@@ -14,7 +14,7 @@ version: r13
 features:
     - label: Compatible across all models
       icon: fa-user-check
-    - label: Last Updated on 2019/06/05
+    - label: Last Updated in 2019
       icon: fa-file-upload
     - label: Highly popular
       icon: fa-chart-line
