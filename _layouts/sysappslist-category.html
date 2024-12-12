@@ -15,6 +15,7 @@ show_sidebar: false
     {% endif %}
 
     {% for sysappslist in sorted_sysappslistings %}
+    {% if sysappslist.hidden != true %}
         <div class="column is-4-desktop is-6-tablet">
             <a href="{{ sysappslist.url | relative_url }}">
                 <div style="border: 3px outset wheat; min-height: 550px" class="card">
@@ -46,5 +47,6 @@ show_sidebar: false
                 </div>
             </a>
         </div>
+    {% endif %}
     {% endfor %}
 </div>
