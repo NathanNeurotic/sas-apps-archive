@@ -13,7 +13,6 @@ show_sidebar: false
     {% else %}
         {% assign sorted_otherlistings = site.otherlistings | sort: page.sort %}
     {% endif %}
-
     {% for otherlist in sorted_otherlistings %}
     {% if applist.hidden != true %}
         <div class="column is-4-desktop is-6-tablet">
