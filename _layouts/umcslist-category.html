@@ -17,7 +17,7 @@ show_sidebar: false
     {% for umcslist in sorted_umcslistings %}
         <div class="column is-4-desktop is-6-tablet">
             <a href="{{ umcslist.url | relative_url }}">
-                <div style="border: 3px outset wheat" class="card">
+                <div style="border: 3px outset wheat; min-height: 550px" class="card">
                     {% if umcslist.image %}
                         <div class="card-image">
                             <figure class="image is-4by3">
@@ -41,8 +41,8 @@ show_sidebar: false
                             </script>
                             <a id="dllink" href="#" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
                             {% endif %}</p></div> -->
-                        <div style="float: right"><p class="title is-5 has-text-right">{{ umcslist.version }}</p></div></br></br>
-                    </div>
+                        </div>
+                        <div style="position: absolute; padding-top: 0px; padding: 20px; width: 100%; bottom: 0px; text-align: bottom | right; align-self: flex-end"><p class="title is-5 has-text-right">{{ umcslist.version }}</p></div></br>
                 </div>
             </a>
         </div>
