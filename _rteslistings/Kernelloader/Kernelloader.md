@@ -3,7 +3,7 @@ title: Kernelloader
 subtitle: Kernelloader is a bootloader for PS2 Linux and other PS2 operating systems
 description: >- 
     Kernelloader is a bootloader for PS2 Linux and other PS2 operating systems
-developer: krHACKen
+developer: ps2dev
 visit_project: https://kernelloader.sourceforge.net/linux.html
 hide_hero: true
 rtes_code: RTL001-003
