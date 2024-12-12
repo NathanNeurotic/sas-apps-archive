@@ -9,7 +9,7 @@ hide_hero: true
 app_code: APL003-001
 layout: applist-multi
 image: https://rggames.com.br/wp-content/uploads/2024/06/opl.jpg
-version: v1.2.0-Beta 2049 - 2173
+version: v1.2.0 Official Betas
 features:
     - label: Compatible across all models
       icon: fa-user-check
