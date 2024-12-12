@@ -1,7 +1,7 @@
 ---
 title: '[EMU] PicoDrive'
-subtitle: A port of PicoDrive v1.51b for the PlayStation 2 console
-description: A port of PicoDrive v1.51b for the PlayStation 2 console
+subtitle: A port of PicoDrive for the PlayStation 2 console
+description: A port of PicoDrive for the PlayStation 2 console
 developer: irixxxx
 visit_project: https://github.com/irixxxx/picodrive
 hide_hero: true
