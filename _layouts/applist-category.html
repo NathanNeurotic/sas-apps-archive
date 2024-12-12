@@ -2,7 +2,7 @@
 layout: default
 show_sidebar: false
 ---
-{% if applist.hidden %}
+
 {% if applist.hidden != true %}
 <div class="columns is-multiline">
     <div class="column is-12">
@@ -49,5 +49,4 @@ show_sidebar: false
         </div>
     {% endfor %}
 </div>
-{% endif %}
 {% endif %}
