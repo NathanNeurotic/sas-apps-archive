@@ -1,5 +1,5 @@
 ---
-title: 3D Pinball Space Cadet PS2
+title: 3D Pinball Space Cadet
 subtitle: The famous pinball game for Windows XP, now available for your PS2!
 description: The famous pinball game that we all played on Windows XP, now available for your PS2!
 developer: Headshotnoby
