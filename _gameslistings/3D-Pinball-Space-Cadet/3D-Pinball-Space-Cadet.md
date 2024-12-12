@@ -1,6 +1,6 @@
 ---
 title: 3D Pinball Space Cadet PS2 Port
-subtitle: The famous pinball game that we all played on Windows XP, now available for your PS2!
+subtitle: The famous pinball game for Windows XP, now available for your PS2!
 description: The famous pinball game that we all played on Windows XP, now available for your PS2!
 developer: Headshotnoby
 visit_project: https://github.com/headshot2017/3dpinball-ps2
