@@ -16,7 +16,7 @@ features:
       icon: fa-file-upload
     - label: Fairly popular
       icon: fa-chart-line
-download: https://app.filen.io/#/d/21d4dd47-4955-46ec-84bd-45f35abb69d1#6IgTUFyzxfuBuGQmx2mGJg9Q7a2fFE0R
+download: https://app.filen.io/#/d/f20b87fa-0e2e-49f8-8e3e-17aa4ad1644f#NIMn7PZ93rSNGlRm2SUmA7fNXD5pJV5t
 rating: 5
 ---
 
