@@ -8,7 +8,7 @@ hide_hero: true
 sysapps_code: SAL001-005
 layout: sysappslist
 image: https://s33.postimg.cc/xlv59493z/IGR_BG.jpg
-version: Unknown
+version: v0.1
 features:
     - label: Compatible across all models
       icon: fa-user-check
